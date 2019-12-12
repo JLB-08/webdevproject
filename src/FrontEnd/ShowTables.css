@@ -1,0 +1,104 @@
+input {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+input:focus {
+    background-color: lightblue;
+}
+
+#nickname {
+    width: auto;
+    height: auto;
+    background: rgba(165, 165, 165, 0.4);
+    border-radius: 8%;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+    margin-bottom: 25px;
+  }
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+b {
+    color: black;
+}
+
+#chose {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: rgba(165, 165, 165, 0.4);
+    padding-top: 30px;
+    float: left;
+    border-radius: 8%;
+}
+
+#display {
+    margin-left: 10px;
+    width: 420px;
+    height: 430px;
+    background-color: rgba(165, 165, 165, 0.4);
+    float: left;
+}
+#flex {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+#mess {
+    color: black;
+    font-size: 30px;
+}
+
+#loc {
+    color: white;
+}
+#home {
+    float: right;
+    width: 100px;
+}
+h3 {
+    color: red;
+}
+#sign {
+    float: right;
+}
+
+#img{
+    width: 200px;
+    height: 200px;
+    margin-right: 120px;
+}
